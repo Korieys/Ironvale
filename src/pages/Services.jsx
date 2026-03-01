@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { ShieldCheck, Zap, Coins, Rocket, ArrowRight, MonitorDot, AppWindowMac, Cpu, Clock, MessageSquare, CheckCircle2 } from 'lucide-react';
 import kromakutImg from '../assets/kromakut.png';
 import parseonImg from '../assets/parseon.png';
@@ -34,6 +35,10 @@ export default function Services() {
 
     return (
         <div className="bg-[#f1f5f9] min-h-screen">
+            <Helmet>
+                <title>Services | Ironvale Works</title>
+                <meta name="description" content="We operate as your dedicated internal development team. Explore our services including Web Apps and Custom Software." />
+            </Helmet>
             {/* Hero */}
             <section className="bg-slate-950 text-[#f1f5f9] pt-24 pb-32 px-4 border-b-4 border-emerald-500 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[linear-gradient(to_right,#10b98122_1px,transparent_1px),linear-gradient(to_bottom,#10b98122_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none"></div>

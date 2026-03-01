@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
+import { Helmet } from 'react-helmet-async';
 import { toast } from 'sonner';
 import { submitLead } from '../lib/db';
 import { Terminal, Send, Clock, ShieldCheck, Headphones } from 'lucide-react';
@@ -43,6 +44,10 @@ export default function Contact() {
 
     return (
         <div className="bg-[#f1f5f9] min-h-screen">
+            <Helmet>
+                <title>Contact Us | Ironvale Works</title>
+                <meta name="description" content="Start a project with us today. Reach out for a quick estimate and discovery call." />
+            </Helmet>
             {/* Header */}
             <section className="bg-emerald-500 text-slate-900 pt-24 pb-20 px-4 border-b-4 border-slate-900 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[repeating-linear-gradient(-45deg,transparent,transparent_35px,rgba(0,0,0,0.04)_35px,rgba(0,0,0,0.04)_36px)] pointer-events-none"></div>

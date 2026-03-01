@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import EcosystemGraph from '../components/EcosystemGraph';
 import {
     ArrowRight,
@@ -49,6 +50,10 @@ export default function Home() {
 
     return (
         <>
+            <Helmet>
+                <title>Ironvale Works | Custom Software & Development</title>
+                <meta name="description" content="We build powerful tools for businesses and create beautiful digital apps for everyday people." />
+            </Helmet>
             {/* Hero Section */}
             <section className="relative pt-12 pb-24 lg:pt-20 lg:pb-40 px-4 sm:px-6 lg:px-8 border-b-4 border-slate-900 overflow-hidden">
                 {/* Architectural Grid Background */}
@@ -181,7 +186,7 @@ export default function Home() {
                             </div>
                             <img src={myscouterImg} alt="MyScouter" className="w-full h-24 object-cover border border-slate-900 mb-4" />
                             <p className="text-xs text-slate-600 font-mono mb-4">DESIGN UTILITY</p>
-                            <a href="https://myscouter.com" target="_blank" rel="noopener noreferrer" className="text-sm font-bold flex items-center hover:text-emerald-600">
+                            <a href="https://www.myscouter.app" target="_blank" rel="noopener noreferrer" className="text-sm font-bold flex items-center hover:text-emerald-600">
                                 View <ArrowUpRight className="w-3 h-3 ml-1" />
                             </a>
                         </div>

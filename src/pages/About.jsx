@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { ArrowUpRight, Users, Globe, Code2, Sparkles } from 'lucide-react';
 import tailorImg from '../assets/tailor.png';
 import jobpeelImg from '../assets/jobpeel.png';
@@ -56,7 +57,7 @@ export default function About() {
         {
             title: 'MyScouter',
             tagline: 'DESIGN UTILITY',
-            url: 'https://myscouter.com',
+            url: 'https://www.myscouter.app',
             description: [
                 'MyScouter is an asset scout for creators and builders. Its goal is to eliminate the chore of gathering screenshots, product shots, UI assets, and marketing visuals. You provide the link to your product and MyScouter automatically fetches the assets needed for your portfolio, case studies, and social posts.',
                 'This saves time for solopreneurs who build frequently and need clean visuals for every launch. MyScouter becomes a creative assistant that collects everything you need for your portfolio or marketing so you can stay focused on building instead of formatting and staging screenshots.'
@@ -79,6 +80,10 @@ export default function About() {
 
     return (
         <div className="bg-[#f1f5f9] min-h-screen">
+            <Helmet>
+                <title>About Us | Ironvale Works</title>
+                <meta name="description" content="Learn more about Ironvale Works, our philosophy, and our ecosystem of digital products." />
+            </Helmet>
 
             {/* Hero Header */}
             <section className="bg-slate-950 text-[#f1f5f9] pt-24 pb-32 px-4 border-b-4 border-emerald-500 relative overflow-hidden">

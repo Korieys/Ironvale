@@ -26,7 +26,9 @@ export default function Layout() {
             '/about': 'Ironvale Works | About Us',
             '/services': 'Ironvale Works | B2B Services',
             '/contact': 'Ironvale Works | Start a Project',
-            '/admin': 'Ironvale Works | Command Center'
+            '/admin': 'Ironvale Works | Command Center',
+            '/privacy': 'Ironvale Works | Privacy Policy',
+            '/terms': 'Ironvale Works | Terms of Service'
         };
         document.title = routeTitles[location.pathname] || 'Ironvale Works';
     }, [location]);
@@ -220,8 +222,8 @@ export default function Layout() {
                         <div>
                             <h4 className="text-slate-300 font-bold uppercase mb-4">Legal</h4>
                             <ul className="space-y-2 text-sm flex flex-col">
-                                <a href="#" className="hover:text-emerald-500 w-fit">/PRIVACY_POLICY</a>
-                                <a href="#" className="hover:text-emerald-500 w-fit">/TERMS_OF_SERVICE</a>
+                                <Link to="/privacy" className="hover:text-emerald-500 w-fit">/PRIVACY_POLICY</Link>
+                                <Link to="/terms" className="hover:text-emerald-500 w-fit">/TERMS_OF_SERVICE</Link>
                             </ul>
                         </div>
                     </div>

@@ -6,13 +6,17 @@ import { AuthProvider } from './lib/auth'
 import './index.css'
 import App from './App.jsx'
 
+import { HelmetProvider } from 'react-helmet-async'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AuthProvider>
-      <BrowserRouter>
-        <App />
-        <Toaster position="bottom-right" theme="dark" />
-      </BrowserRouter>
-    </AuthProvider>
+    <HelmetProvider>
+      <AuthProvider>
+        <BrowserRouter>
+          <App />
+          <Toaster position="bottom-right" theme="dark" />
+        </BrowserRouter>
+      </AuthProvider>
+    </HelmetProvider>
   </StrictMode>,
 )
