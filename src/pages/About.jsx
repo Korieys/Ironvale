@@ -68,7 +68,7 @@ export default function About() {
         {
             title: 'Rylo',
             tagline: 'VIDEO EDITOR',
-            url: '#',
+            url: 'https://www.rylo.space',
             description: [
                 'Rylo makes editing product demos effortless. It sits between Loom and Tella by letting you record with whatever tool you want but edit with Rylo’s AI powered editor. You can generate captions, cut fluff automatically, highlight key actions, and polish your product walkthroughs without spending hours editing.',
                 'Rylo is built for founders, devs, and makers who ship fast. You can rapidly create clean demos for landing pages, outreach, or launch videos while keeping the entire process simple. It positions itself as the tool creators go to when they want their demos to look polished without needing a full editing workflow.'

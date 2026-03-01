@@ -198,7 +198,7 @@ export default function Home() {
                             </div>
                             <img src={ryloImg} alt="Rylo" className="w-full h-24 object-cover border border-slate-900 mb-4" />
                             <p className="text-xs text-slate-600 font-mono mb-4">VIDEO EDITOR</p>
-                            <a href="#" className="text-sm font-bold flex items-center hover:text-emerald-600">
+                            <a href="https://www.rylo.space" target="_blank" rel="noopener noreferrer" className="text-sm font-bold flex items-center hover:text-emerald-600">
                                 View <ArrowUpRight className="w-3 h-3 ml-1" />
                             </a>
                         </div>
