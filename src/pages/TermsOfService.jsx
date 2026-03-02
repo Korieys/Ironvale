@@ -10,7 +10,7 @@ export default function TermsOfService() {
         <div className="bg-[#f1f5f9] min-h-screen text-slate-800 pb-24">
             <Helmet>
                 <title>Terms of Service | Ironvale Works</title>
-                <meta name="description" content="Terms of Service for Ironvale Works outlining the rules and guidelines for using our website and services." />
+                <meta name="description" content="Terms of Service mapping out the rules of engagement when partnering with Ironvale Works." />
             </Helmet>
 
             <section className="bg-slate-950 text-[#f1f5f9] pt-24 pb-16 px-4 border-b-4 border-emerald-500 relative">

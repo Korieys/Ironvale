@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
         <div className="bg-[#f1f5f9] min-h-screen text-slate-800 pb-24">
             <Helmet>
                 <title>Privacy Policy | Ironvale Works</title>
-                <meta name="description" content="Privacy Policy for Ironvale Works describing how we handle and protect your data." />
+                <meta name="description" content="Privacy Policy for Ironvale Works describing how we handle and protect data within our acceleration ecosystem." />
             </Helmet>
 
             <section className="bg-slate-950 text-[#f1f5f9] pt-24 pb-16 px-4 border-b-4 border-emerald-500 relative">
