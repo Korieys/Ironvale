@@ -22,10 +22,10 @@ export default function Layout() {
     // Update Document Title based on route
     useEffect(() => {
         const routeTitles = {
-            '/': 'Ironvale Works | Home',
-            '/about': 'Ironvale Works | About Us',
-            '/services': 'Ironvale Works | B2B Services',
-            '/contact': 'Ironvale Works | Start a Project',
+            '/': 'Ironvale Works | The Acceleration Engine',
+            '/about': 'Ironvale Works | Products',
+            '/services': 'Ironvale Works | Our Services',
+            '/contact': 'Ironvale Works | Build Faster',
             '/admin': 'Ironvale Works | Command Center',
             '/privacy': 'Ironvale Works | Privacy Policy',
             '/terms': 'Ironvale Works | Terms of Service'
@@ -68,7 +68,7 @@ export default function Layout() {
                     <span className="hidden sm:inline">|</span>
                     <span className="hidden sm:inline">CAPACITY: OPTIMAL</span>
                     <span className="hidden md:inline">|</span>
-                    <span className="hidden md:inline">READY FOR PROJECTS</span>
+                    <span className="hidden md:inline">VELOCITY: MAXIMUM</span>
                 </div>
                 <div className="whitespace-nowrap ml-4 pl-4 border-l border-slate-700 bg-slate-900 z-10">
                     {currentTime}
@@ -119,7 +119,7 @@ export default function Layout() {
                                 to="/contact"
                                 className={`px-8 border-l-4 border-slate-900 font-bold uppercase tracking-wider transition-all duration-300 flex items-center gap-2 group ${isActive('/contact') ? 'bg-emerald-600 text-slate-900' : 'bg-slate-900 text-white hover:bg-emerald-500 hover:text-slate-900'}`}
                             >
-                                Get Started
+                                Accelerate
                                 <ArrowUpRight className={`w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5`} />
                             </Link>
                         </div>
@@ -170,7 +170,7 @@ export default function Layout() {
                         >
                             <span className="flex items-center gap-3">
                                 <span className="font-mono text-xs text-slate-500">03</span>
-                                Get Started
+                                Accelerate
                             </span>
                             <ArrowUpRight className="w-5 h-5" />
                         </Link>
@@ -203,8 +203,8 @@ export default function Layout() {
                                 Ironvale/Works
                             </div>
                             <p className="text-sm max-w-sm">
-                                CUSTOM SOFTWARE DEVELOPMENT &<br />
-                                INNOVATIVE DIGITAL PRODUCTS.<br />
+                                THE ACCELERATION ENGINE BEHIND<br />
+                                TOMORROW'S BUILDERS.<br />
                                 WORKING GLOBALLY.
                             </p>
                         </div>

@@ -37,7 +37,7 @@ export default function Services() {
         <div className="bg-[#f1f5f9] min-h-screen">
             <Helmet>
                 <title>Services | Ironvale Works</title>
-                <meta name="description" content="We operate as your dedicated internal development team. Explore our services including Web Apps and Custom Software." />
+                <meta name="description" content="Execution as a weapon. Explore our services including Web Apps, Automation, and Custom Software." />
             </Helmet>
             {/* Hero */}
             <section className="bg-slate-950 text-[#f1f5f9] pt-24 pb-32 px-4 border-b-4 border-emerald-500 relative overflow-hidden">
@@ -50,17 +50,17 @@ export default function Services() {
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <div>
                             <div className="inline-block bg-emerald-500 text-slate-950 font-mono font-bold px-4 py-2 text-sm mb-8 tracking-widest border-2 border-emerald-400">
-                                YOUR INTERNAL DEV TEAM
+                                YOUR ACCELERATION PARTNER
                             </div>
                             <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-8 leading-[0.85]">
-                                Half The Cost.<br />
-                                <span className="text-emerald-500">Half The Time.</span>
+                                Execution As<br />
+                                <span className="text-emerald-500">A Weapon.</span>
                             </h1>
                             <p className="text-xl font-medium text-slate-400 max-w-xl leading-relaxed mb-10 border-l-4 border-emerald-500 pl-6">
-                                We operate as your dedicated internal development team. We're quick, we're lean, and we produce high-quality results incredibly fast.
+                                We are the acceleration engine behind tomorrow's builders. If you refuse to move slow, we are the partner that makes it happen.
                             </p>
                             <Link to="/contact" className="inline-block px-10 py-5 bg-emerald-500 text-slate-900 border-2 border-emerald-500 font-black uppercase text-lg tracking-wider hover:bg-slate-900 hover:text-emerald-500 transition-colors shadow-[8px_8px_0px_0px_rgba(24,24,27,1)]">
-                                Hire Us Today
+                                Arm Your Team
                             </Link>
                         </div>
                         {/* Stats Panel */}
@@ -69,10 +69,10 @@ export default function Services() {
                                 <div className="font-mono text-xs text-slate-600 mb-6 border-b border-slate-800 pb-4">PERFORMANCE METRICS</div>
                                 <div className="space-y-6">
                                     {[
-                                        { label: 'AVG. DELIVERY SPEED', value: '2X FASTER', bar: '85%' },
-                                        { label: 'COST VS TRADITIONAL AGENCY', value: '50-75% LESS', bar: '70%' },
-                                        { label: 'CLIENT SATISFACTION', value: '100%', bar: '100%' },
-                                        { label: 'PROJECTS SHIPPED ON TIME', value: '100%', bar: '100%' },
+                                        { label: 'VELOCITY MULTIPLIER', value: '3X OUTPUT', bar: '85%' },
+                                        { label: 'DELIVERY RELIABILITY', value: '100%', bar: '100%' },
+                                        { label: 'CLIENT CONFIDENCE', value: 'ABSOLUTE', bar: '100%' },
+                                        { label: 'COMPETITOR AVOIDANCE', value: 'HIGH', bar: '90%' },
                                     ].map((stat, i) => (
                                         <div key={i}>
                                             <div className="flex justify-between font-mono text-xs mb-2">
@@ -174,26 +174,26 @@ export default function Services() {
                     <div className="text-center mb-16">
                         <h2 className="font-mono text-emerald-500 font-bold mb-4 tracking-widest uppercase">Why Us</h2>
                         <h3 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none">
-                            The Ironvale<br />Advantage.
+                            The Unfair<br />Advantage.
                         </h3>
                     </div>
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="bg-slate-900 border-2 border-slate-800 p-8 hover:border-emerald-500 transition-all duration-300 group">
                             <Zap className="w-14 h-14 text-emerald-500 mb-6 group-hover:scale-110 transition-transform" />
-                            <h3 className="text-2xl font-black uppercase mb-4">Lightning Fast</h3>
-                            <p className="text-slate-400 font-medium mb-6">We don't do endless planning phases. We build rapidly, iterate constantly, and deploy fast so you can see ROI immediately.</p>
-                            <div className="font-mono text-xs text-slate-600 border-t border-slate-800 pt-4">AVG. TURNAROUND: 2-4 WEEKS</div>
+                            <h3 className="text-2xl font-black uppercase mb-4">Unrelenting Velocity</h3>
+                            <p className="text-slate-400 font-medium mb-6">We don't do endless planning phases. We execute with clarity and ship fast, forcing competitors to step aside.</p>
+                            <div className="font-mono text-xs text-slate-600 border-t border-slate-800 pt-4">MODE: ALWAYS SHIPPING</div>
                         </div>
                         <div className="bg-slate-900 border-2 border-slate-800 p-8 hover:border-emerald-500 transition-all duration-300 group">
                             <Coins className="w-14 h-14 text-emerald-500 mb-6 group-hover:scale-110 transition-transform" />
-                            <h3 className="text-2xl font-black uppercase mb-4">Cost Effective</h3>
-                            <p className="text-slate-400 font-medium mb-6">Why hire a bloated tech agency or a slow in-house team? You get a seasoned engineering unit for a fraction of the traditional cost.</p>
-                            <div className="font-mono text-xs text-slate-600 border-t border-slate-800 pt-4">SAVINGS: 50-75% vs AGENCIES</div>
+                            <h3 className="text-2xl font-black uppercase mb-4">Leveraged Execution</h3>
+                            <p className="text-slate-400 font-medium mb-6">Gain a reputation for being dangerously effective. We provide the technical capabilities of a massive corp without the bloat.</p>
+                            <div className="font-mono text-xs text-slate-600 border-t border-slate-800 pt-4">OUTPUT: MAXIMUM YIELD</div>
                         </div>
                         <div className="bg-slate-900 border-2 border-slate-800 p-8 hover:border-emerald-500 transition-all duration-300 group">
                             <Rocket className="w-14 h-14 text-emerald-500 mb-6 group-hover:scale-110 transition-transform" />
-                            <h3 className="text-2xl font-black uppercase mb-4">High Quality</h3>
-                            <p className="text-slate-400 font-medium mb-6">Being lean doesn't mean cutting corners. We build production-ready, scalable apps designed to last and handle real users beautifully.</p>
+                            <h3 className="text-2xl font-black uppercase mb-4">Ruthless Quality</h3>
+                            <p className="text-slate-400 font-medium mb-6">Moving fast means nothing if the product breaks. We build robust, precision engineered systems that scale with your ambition.</p>
                             <div className="font-mono text-xs text-slate-600 border-t border-slate-800 pt-4">STANDARD: PRODUCTION-GRADE</div>
                         </div>
                     </div>
@@ -275,15 +275,15 @@ export default function Services() {
                     <div className="text-center mb-16">
                         <h2 className="font-mono text-slate-500 font-bold mb-4 tracking-widest uppercase">Our Process</h2>
                         <h3 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none">
-                            Simple. Fast.<br />Effective.
+                            Scope. Build.<br />Dominate.
                         </h3>
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-0">
                         {[
-                            { step: '01', icon: <MessageSquare className="w-10 h-10" />, title: 'Discovery Call', desc: 'We hop on a quick call, understand your problem, and scope out the project. No lengthy proposals.' },
-                            { step: '02', icon: <Zap className="w-10 h-10" />, title: 'Rapid Build', desc: 'We start building immediately. You get weekly updates and can see progress in real-time.' },
-                            { step: '03', icon: <Clock className="w-10 h-10" />, title: 'Ship & Support', desc: 'We launch your product, hand over the keys, and provide ongoing support so you\'re never stuck.' }
+                            { step: '01', icon: <MessageSquare className="w-10 h-10" />, title: 'Align On Scope', desc: 'Identify the exact lever needed to accelerate your business. We define the target and skip the bloated proposals.' },
+                            { step: '02', icon: <Zap className="w-10 h-10" />, title: 'Accelerated Build', desc: 'We execute with ruthless momentum. You get constant updates as we actively forge your solution.' },
+                            { step: '03', icon: <Clock className="w-10 h-10" />, title: 'Ship & Multiply', desc: 'We launch constraints away and arm your team with a platform that acts as a continuous force multiplier.' }
                         ].map((item, i) => (
                             <div key={i} className="relative p-8 border-4 border-slate-900 bg-white text-center group hover:bg-slate-900 hover:text-white transition-colors duration-300">
                                 {i < 2 && <div className="hidden md:block absolute top-1/2 -right-3 z-20 w-6 h-6 bg-emerald-500 border-2 border-slate-900 rotate-45 transform -translate-y-1/2"></div>}
@@ -301,10 +301,10 @@ export default function Services() {
             <section className="py-24 bg-slate-100 border-t-4 border-slate-900 relative overflow-hidden">
                 <div className="absolute inset-0 bg-[linear-gradient(to_right,#00000010_1px,transparent_1px),linear-gradient(to_bottom,#00000010_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none"></div>
                 <div className="max-w-4xl mx-auto text-center px-4 relative z-10">
-                    <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-4">Stop Wasting Time.</h2>
-                    <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-8 text-transparent" style={{ WebkitTextStroke: '2px #0f172a' }}>Start Building.</h2>
+                    <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-4">Stop Planning.</h2>
+                    <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-8 text-transparent" style={{ WebkitTextStroke: '2px #0f172a' }}>Start Shipping.</h2>
                     <Link to="/contact" className="inline-flex items-center gap-3 px-10 py-5 bg-slate-900 text-white font-black uppercase text-lg tracking-wider hover:bg-emerald-500 hover:text-slate-900 transition-colors shadow-[8px_8px_0px_0px_rgba(16,185,129,1)] border-4 border-slate-900">
-                        Let's Talk About Your Project <ArrowRight className="w-6 h-6" />
+                        Accelerate Your Business <ArrowRight className="w-6 h-6" />
                     </Link>
                 </div>
             </section>

@@ -46,7 +46,7 @@ export default function Contact() {
         <div className="bg-[#f1f5f9] min-h-screen">
             <Helmet>
                 <title>Contact Us | Ironvale Works</title>
-                <meta name="description" content="Start a project with us today. Reach out for a quick estimate and discovery call." />
+                <meta name="description" content="Collapse your timeline. Secure your spot to build your next weapon for domination." />
             </Helmet>
             {/* Header */}
             <section className="bg-emerald-500 text-slate-900 pt-24 pb-20 px-4 border-b-4 border-slate-900 relative overflow-hidden">
@@ -61,17 +61,17 @@ export default function Contact() {
                             <Terminal className="w-16 h-16 mb-6" />
                             <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-[0.85] mb-6">
                                 Let's Build<br />
-                                <span className="text-white">Something Great.</span>
+                                <span className="text-white">Something Dangerous.</span>
                             </h1>
                             <p className="text-lg font-bold font-mono bg-white inline-block px-4 py-2 border-4 border-slate-900 shadow-[4px_4px_0px_0px_rgba(24,24,27,1)]">
-                                SECURE YOUR SPOT & GET A QUICK ESTIMATE.
+                                COLLAPSE YOUR TIMELINE. START NOW.
                             </p>
                         </div>
                         <div className="hidden lg:grid grid-cols-1 gap-4">
                             {[
-                                { icon: <Clock className="w-8 h-8" />, title: '24-Hour Response', desc: 'We respond to every inquiry within one business day.' },
-                                { icon: <ShieldCheck className="w-8 h-8" />, title: 'Full Refund Guarantee', desc: 'Not satisfied? Get 100% of your money back.' },
-                                { icon: <Headphones className="w-8 h-8" />, title: 'Ongoing Support', desc: 'We don\'t ghost after launch. We\'re here for the long run.' },
+                                { icon: <Clock className="w-8 h-8" />, title: 'Extreme Velocity', desc: 'We review and estimate within one business day. No waiting around.' },
+                                { icon: <ShieldCheck className="w-8 h-8" />, title: 'Absolute Confidence', desc: 'Not satisfied? Get 100% of your money back. We build to win.' },
+                                { icon: <Headphones className="w-8 h-8" />, title: 'Relentless Support', desc: 'Your new force multiplier will be constantly supported.' },
                             ].map((item, i) => (
                                 <div key={i} className="flex items-start gap-4 bg-white border-2 border-slate-900 p-4 shadow-[4px_4px_0px_0px_rgba(24,24,27,1)]">
                                     <div className="bg-slate-900 text-emerald-500 p-2 flex-shrink-0">{item.icon}</div>
@@ -98,19 +98,19 @@ export default function Contact() {
                                 <ol className="space-y-4 font-mono text-xs">
                                     <li className="flex items-start gap-3">
                                         <span className="bg-emerald-500 text-slate-900 w-6 h-6 flex items-center justify-center font-bold flex-shrink-0">1</span>
-                                        <span className="text-slate-400">We review your inquiry and scope the project.</span>
+                                        <span className="text-slate-400">We analyze your required velocity and scope.</span>
                                     </li>
                                     <li className="flex items-start gap-3">
                                         <span className="bg-emerald-500 text-slate-900 w-6 h-6 flex items-center justify-center font-bold flex-shrink-0">2</span>
-                                        <span className="text-slate-400">We send you a quick estimate within 24 hours.</span>
+                                        <span className="text-slate-400">We respond with a trajectory plan within 24 hours.</span>
                                     </li>
                                     <li className="flex items-start gap-3">
                                         <span className="bg-emerald-500 text-slate-900 w-6 h-6 flex items-center justify-center font-bold flex-shrink-0">3</span>
-                                        <span className="text-slate-400">We hop on a discovery call to finalize scope.</span>
+                                        <span className="text-slate-400">We lock in the target and align on momentum.</span>
                                     </li>
                                     <li className="flex items-start gap-3">
                                         <span className="bg-emerald-500 text-slate-900 w-6 h-6 flex items-center justify-center font-bold flex-shrink-0">4</span>
-                                        <span className="text-slate-400">We start building immediately. No red tape.</span>
+                                        <span className="text-slate-400">We start executing instantly. No delays.</span>
                                     </li>
                                 </ol>
                             </div>
@@ -242,7 +242,7 @@ export default function Contact() {
                                     )}
                                 </button>
                                 <p className="mt-4 text-center font-mono text-xs text-slate-500 bg-slate-50 py-2 border border-slate-200">
-                                    &gt; WE RESPOND TO ALL INQUIRIES WITHIN 24 HOURS.
+                                    &gt; YOUR NEW EDGE AWAITS. RESPONSES WITHIN 24H.
                                 </p>
                             </form>
                         </div>

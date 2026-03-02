@@ -51,8 +51,8 @@ export default function Home() {
     return (
         <>
             <Helmet>
-                <title>Ironvale Works | Custom Software & Development</title>
-                <meta name="description" content="We build powerful tools for businesses and create beautiful digital apps for everyday people." />
+                <title>Ironvale Works | The Acceleration Engine</title>
+                <meta name="description" content="The home of unfair speed. We build powerful tools for operators, creators, and teams who refuse to move slow." />
             </Helmet>
             {/* Hero Section */}
             <section className="relative pt-12 pb-24 lg:pt-20 lg:pb-40 px-4 sm:px-6 lg:px-8 border-b-4 border-slate-900 overflow-hidden">
@@ -62,24 +62,24 @@ export default function Home() {
                 <div ref={heroRef} className={`max-w-7xl mx-auto relative z-10 grid lg:grid-cols-2 gap-12 items-center reveal-on-scroll ${heroInView ? 'is-revealed animate-fade-in-up' : ''}`}>
                     <div>
                         <div className="inline-block bg-emerald-500 text-slate-900 font-mono font-bold px-3 py-1 text-sm mb-6 border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(24,24,27,1)]">
-                            EST. 2020 // DIGITAL STUDIO
+                            EST. 2020 // ACCELERATION ENGINE
                         </div>
                         <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.85] mb-8">
-                            Digital <br />
-                            <span className="text-transparent" style={{ WebkitTextStroke: '2px #0f172a' }}>Products</span> <br />
-                            Built to Last.
+                            Move So Fast<br />
+                            <span className="text-transparent" style={{ WebkitTextStroke: '2px #0f172a' }}>They Avoid</span> <br />
+                            Your Market.
                         </h1>
                         <p className="text-xl font-medium max-w-lg mb-10 border-l-4 border-emerald-500 pl-4">
-                            We build powerful tools for businesses and create beautiful digital apps for everyday people.
+                            Ironvale builds software that acts like a force multiplier for human ambition. Collapse timelines, sharpen choices, and turn execution into a weapon.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 font-mono font-bold uppercase">
                             <Link to="/services" className="px-6 py-4 bg-slate-900 text-[#f1f5f9] border-2 border-slate-900 hover:-translate-y-1 hover:translate-x-1 hover:shadow-[-6px_6px_0px_0px_#10b981] shadow-[4px_4px_0px_0px_#10b981] transition-all duration-300 flex justify-between items-center group">
-                                <span>View Our Services</span>
+                                <span>See How We Accelerate</span>
                                 <ArrowRight className="w-5 h-5 ml-4 group-hover:text-emerald-500 group-hover:translate-x-2 transition-transform duration-300" />
                             </Link>
                             <Link to="/about" className="px-6 py-4 bg-[#f1f5f9] text-slate-900 border-2 border-slate-900 hover:-translate-y-1 hover:translate-x-1 hover:shadow-[-6px_6px_0px_0px_#0f172a] shadow-[4px_4px_0px_0px_#0f172a] transition-all duration-300 flex justify-between items-center group">
-                                <span>See Our Products</span>
+                                <span>The Ecosystem</span>
                                 <Box className="w-5 h-5 ml-4 group-hover:rotate-12 group-hover:scale-110 transition-transform duration-300" />
                             </Link>
                         </div>
@@ -103,10 +103,10 @@ export default function Home() {
                         <div className="max-w-2xl">
                             <h2 className="font-mono text-emerald-500 font-bold mb-4 tracking-widest uppercase">Business Services</h2>
                             <h3 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-6">
-                                Tools That Build <br />Better Teams.
+                                Collapse Timelines.<br />Dominate Markets.
                             </h3>
                             <p className="text-slate-400 text-lg font-medium">
-                                We replace messy spreadsheets and slow software with custom, fast web applications that make your daily work easier.
+                                We replace slow software with high-velocity web apps designed to give your operators an unfair advantage. Execute with clarity instead of chaos.
                             </p>
                         </div>
                         <div className="mt-8 md:mt-0 text-right">
@@ -119,18 +119,18 @@ export default function Home() {
                     <div className="grid md:grid-cols-3 gap-8">
                         <div style={{ animationDelay: '100ms' }} className="bg-slate-900 border-2 border-slate-800 p-8 hover:border-emerald-500 transition-colors group relative overflow-hidden">
                             <MonitorDot className="w-12 h-12 text-emerald-500 mb-6 group-hover:scale-110 transition-transform duration-300" />
-                            <h4 className="text-xl font-black uppercase tracking-tight mb-4">Simple Websites</h4>
-                            <p className="text-slate-400 text-sm">Clean, fast, and beautiful informational sites that tell your story perfectly.</p>
+                            <h4 className="text-xl font-black uppercase tracking-tight mb-4">Marketing Sites</h4>
+                            <p className="text-slate-400 text-sm">Blazing fast sites that convert attention into momentum before your competitors react.</p>
                         </div>
                         <div style={{ animationDelay: '200ms' }} className="bg-slate-900 border-2 border-slate-800 p-8 hover:border-emerald-500 transition-colors group relative overflow-hidden">
                             <AppWindowMac className="w-12 h-12 text-emerald-500 mb-6 group-hover:rotate-12 transition-transform duration-300" />
                             <h4 className="text-xl font-black uppercase tracking-tight mb-4">Web Applications</h4>
-                            <p className="text-slate-400 text-sm">Complex sites with admin dashboards and tailored logic for operations.</p>
+                            <p className="text-slate-400 text-sm">Automated logic and command dashboards that turn heavy operations into light work.</p>
                         </div>
                         <div style={{ animationDelay: '300ms' }} className="bg-slate-900 border-2 border-slate-800 p-8 hover:border-emerald-500 transition-colors group relative overflow-hidden">
                             <Cpu className="w-12 h-12 text-emerald-500 mb-6 group-hover:text-white transition-colors duration-300" />
                             <h4 className="text-xl font-black uppercase tracking-tight mb-4">Custom Software</h4>
-                            <p className="text-slate-400 text-sm">From scratch systems designed to modernize legacy companies.</p>
+                            <p className="text-slate-400 text-sm">From-scratch systems built specifically to multiply the output of your best people.</p>
                         </div>
                     </div>
                 </div>
@@ -142,15 +142,15 @@ export default function Home() {
 
                 <div ref={b2cRef} className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 reveal-on-scroll ${b2cInView ? 'is-revealed animate-fade-in-up' : ''}`}>
                     <div className="text-center mb-16 flex flex-col items-center">
-                        <h2 className="font-mono text-slate-500 font-bold mb-4 tracking-widest uppercase">Our Products</h2>
+                        <h2 className="font-mono text-slate-500 font-bold mb-4 tracking-widest uppercase">The Ecosystem</h2>
                         <h3 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-6">
-                            Apps You'll Love<br />Using.
+                            Weapons For<br />Builders.
                         </h3>
                         <p className="text-slate-700 text-lg max-w-2xl mx-auto font-medium mb-8">
-                            We take the same care we use for business software and apply it to everyday apps. Our products are designed to be fast, useful, and simple.
+                            We take the same force-multiplier mindset we use for enterprises and apply it to everyday apps. Move with compounding momentum that makes hesitation impossible.
                         </p>
                         <Link to="/about" className="px-8 py-3 bg-slate-900 text-white font-mono font-bold uppercase hover:bg-emerald-500 hover:text-slate-900 transition-colors">
-                            Explore All Products
+                            The Complete Ecosystem
                         </Link>
                     </div>
 

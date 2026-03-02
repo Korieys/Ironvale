@@ -1,8 +1,9 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { ArrowUpRight, Users, Globe, Code2, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Users, Globe, Zap, Sparkles } from 'lucide-react';
 import tailorImg from '../assets/tailor.png';
+import atumImg from '../assets/atum.png';
 import jobpeelImg from '../assets/jobpeel.png';
 import myscouterImg from '../assets/myscouter.png';
 import ryloImg from '../assets/rylo.png';
@@ -41,6 +42,17 @@ export default function About() {
                 'Its deeper value comes from its ecosystem. You get smart progress tracking, multi platform publishing, video creation, content repurposing, and a privacy and control layer so you can choose what stays private and what gets published. Atum becomes a force multiplier for creative output and a silent operating system for anyone shipping products consistently.'
             ],
             features: ['Smart progress tracking', 'Multi-platform publishing', 'Video creation & repurposing', 'Privacy & control layer'],
+            img: atumImg,
+        },
+        {
+            title: 'Tailor',
+            tagline: 'OUTREACH ENGINE',
+            url: '#',
+            description: [
+                'Tailor is your outreach engine built for founders who want to move fast. It scans a company’s website and creates personalized messages for cold outreach, pitch intros, and value forward communication in minutes. Instead of generic templates, Tailor generates messages that reference actual pages, services, positioning, or gaps in the prospect’s business so every touch feels relevant and intentional.',
+                'It helps you contact more companies with higher accuracy. Tailor produces short scripts, multi step sequences, and targeted talking points that feel handcrafted without the time cost. It becomes a power tool for solopreneurs who want to move volume without sacrificing personalization, giving you the speed of automation with the precision of real research.'
+            ],
+            features: ['Website scanning & analysis', 'Personalized message generation', 'Multi-step sequences', 'Targeted talking points'],
             img: tailorImg,
         },
         {
@@ -82,7 +94,7 @@ export default function About() {
         <div className="bg-[#f1f5f9] min-h-screen">
             <Helmet>
                 <title>About Us | Ironvale Works</title>
-                <meta name="description" content="Learn more about Ironvale Works, our philosophy, and our ecosystem of digital products." />
+                <meta name="description" content="Ironvale is the home of unfair speed. Explore our ecosystem of digital products designed for momentum." />
             </Helmet>
 
             {/* Hero Header */}
@@ -97,11 +109,11 @@ export default function About() {
                         WHO WE ARE
                     </div>
                     <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.85] mb-8">
-                        We Build What<br />
-                        <span className="text-transparent" style={{ WebkitTextStroke: '2px #10b981' }}>Others Can't.</span>
+                        The Home of<br />
+                        <span className="text-transparent" style={{ WebkitTextStroke: '2px #10b981' }}>Unfair Speed.</span>
                     </h1>
                     <p className="text-xl md:text-2xl font-medium text-slate-400 max-w-3xl leading-relaxed border-l-4 border-emerald-500 pl-6">
-                        Ironvale Works is a software company that builds B2B internal tools for companies, and also has its own expanding range of B2C products. We ship fast, we ship quality, and we never stop building.
+                        The world doesn't reward the talented. It rewards the fast. Ironvale exists to make you faster than anyone else in your market by building software that acts as an acceleration engine.
                     </p>
                 </div>
             </section>
@@ -116,16 +128,16 @@ export default function About() {
                     <div className="text-center mb-16">
                         <h2 className="font-mono text-slate-500 font-bold mb-4 tracking-widest uppercase">Our Philosophy</h2>
                         <h3 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none">
-                            Built Different.
+                            This Is <br />Acceleration.
                         </h3>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {[
-                            { icon: <Code2 className="w-10 h-10" />, title: 'Engineering First', desc: 'Every decision is rooted in clean architecture and scalable code. No shortcuts, no tech debt.' },
-                            { icon: <Sparkles className="w-10 h-10" />, title: 'Design Obsessed', desc: 'Beautiful interfaces aren\'t optional. Every pixel is intentional, every interaction is crafted.' },
-                            { icon: <Users className="w-10 h-10" />, title: 'People Focused', desc: 'We build for real humans with real problems. User experience drives every feature decision.' },
-                            { icon: <Globe className="w-10 h-10" />, title: 'Global Reach', desc: 'Our products serve users worldwide. We think globally and build for scale from day one.' },
+                            { icon: <Zap className="w-10 h-10" />, title: 'Unfair Speed', desc: 'Build products before others finish planning. Execute without hesitation and move with compounding momentum.' },
+                            { icon: <Sparkles className="w-10 h-10" />, title: 'Absolute Precision', desc: 'Fast doesn’t mean broken. Every pixel and interaction is crafted to behave exactly as you expect.' },
+                            { icon: <Users className="w-10 h-10" />, title: 'Force Multipliers', desc: 'We build systems that act as levers for human ambition, maximizing the output of every operator on your team.' },
+                            { icon: <Globe className="w-10 h-10" />, title: 'Global Identity', desc: 'Your tools should give you an edge and an identity. We create software that gives you an unbeatable aura.' },
                         ].map((item, i) => (
                             <div key={i} className="bg-white border-4 border-slate-900 p-6 shadow-[6px_6px_0px_0px_rgba(24,24,27,1)] hover:-translate-y-2 hover:shadow-[10px_10px_0px_0px_#10b981] transition-all duration-300 group">
                                 <div className="text-emerald-500 mb-4 group-hover:scale-110 transition-transform duration-300">{item.icon}</div>
@@ -178,9 +190,15 @@ export default function About() {
                                             </div>
                                         ))}
                                     </div>
-                                    <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 bg-slate-800 text-white font-mono font-bold uppercase text-sm hover:bg-emerald-500 hover:text-slate-900 transition-colors w-fit border border-slate-700 hover:border-slate-900">
-                                        Visit {project.title} <ArrowUpRight className="w-4 h-4" />
-                                    </a>
+                                    {project.url !== '#' ? (
+                                        <a href={project.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-6 py-3 bg-slate-800 text-white font-mono font-bold uppercase text-sm hover:bg-emerald-500 hover:text-slate-900 transition-colors w-fit border border-slate-700 hover:border-slate-900">
+                                            Visit {project.title} <ArrowUpRight className="w-4 h-4" />
+                                        </a>
+                                    ) : (
+                                        <button className="inline-flex items-center gap-2 px-6 py-3 bg-slate-800 text-slate-500 font-mono font-bold uppercase text-sm w-fit border border-slate-700 cursor-not-allowed">
+                                            {project.title} (Coming Soon)
+                                        </button>
+                                    )}
                                 </div>
                             </div>
                         ))}
@@ -191,10 +209,10 @@ export default function About() {
             {/* CTA */}
             <section ref={ctaRef} className={`py-24 bg-emerald-500 text-slate-900 border-b-4 border-slate-900 reveal-on-scroll ${ctaInView ? 'is-revealed animate-fade-in-up' : ''}`}>
                 <div className="max-w-4xl mx-auto text-center px-4">
-                    <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">Want Us To Build<br />Something For You?</h2>
+                    <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">Ready To Move<br />Faster Than<br />Everyone Else?</h2>
                     <p className="font-mono text-lg font-bold mb-10 max-w-2xl mx-auto">WE'RE ALWAYS LOOKING FOR INTERESTING PROBLEMS TO SOLVE.</p>
                     <Link to="/contact" className="inline-block px-10 py-5 bg-slate-900 text-white font-black uppercase text-lg tracking-wider hover:bg-white hover:text-slate-900 transition-colors shadow-[8px_8px_0px_0px_rgba(24,24,27,0.3)] border-4 border-slate-900">
-                        Start a Project
+                        Accelerate Now
                     </Link>
                 </div>
             </section>
