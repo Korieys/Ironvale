@@ -113,7 +113,7 @@ export default function About() {
                         <span className="text-transparent" style={{ WebkitTextStroke: '2px #10b981' }}>Unfair Speed.</span>
                     </h1>
                     <p className="text-xl md:text-2xl font-medium text-slate-400 max-w-3xl leading-relaxed border-l-4 border-emerald-500 pl-6">
-                        The world doesn't reward the talented. It rewards the fast. Ironvale exists to make you faster than anyone else in your market by building software that acts as an acceleration engine.
+                        The world doesn't reward the talented. It rewards the fast. Ironvale exists to make you faster than anyone else in your market by building software that acts as an execution engine.
                     </p>
                 </div>
             </section>
@@ -128,7 +128,7 @@ export default function About() {
                     <div className="text-center mb-16">
                         <h2 className="font-mono text-slate-500 font-bold mb-4 tracking-widest uppercase">Our Philosophy</h2>
                         <h3 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none">
-                            This Is <br />Acceleration.
+                            This Is <br />Execution.
                         </h3>
                     </div>
 
@@ -212,7 +212,7 @@ export default function About() {
                     <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-6">Ready To Move<br />Faster Than<br />Everyone Else?</h2>
                     <p className="font-mono text-lg font-bold mb-10 max-w-2xl mx-auto">WE'RE ALWAYS LOOKING FOR INTERESTING PROBLEMS TO SOLVE.</p>
                     <Link to="/contact" className="inline-block px-10 py-5 bg-slate-900 text-white font-black uppercase text-lg tracking-wider hover:bg-white hover:text-slate-900 transition-colors shadow-[8px_8px_0px_0px_rgba(24,24,27,0.3)] border-4 border-slate-900">
-                        Accelerate Now
+                        Execute Now
                     </Link>
                 </div>
             </section>

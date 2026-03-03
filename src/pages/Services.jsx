@@ -50,14 +50,14 @@ export default function Services() {
                     <div className="grid lg:grid-cols-2 gap-16 items-center">
                         <div>
                             <div className="inline-block bg-emerald-500 text-slate-950 font-mono font-bold px-4 py-2 text-sm mb-8 tracking-widest border-2 border-emerald-400">
-                                YOUR ACCELERATION PARTNER
+                                YOUR EXECUTION PARTNER
                             </div>
                             <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-8 leading-[0.85]">
                                 Execution As<br />
                                 <span className="text-emerald-500">A Weapon.</span>
                             </h1>
                             <p className="text-xl font-medium text-slate-400 max-w-xl leading-relaxed mb-10 border-l-4 border-emerald-500 pl-6">
-                                We are the acceleration engine behind tomorrow's builders. If you refuse to move slow, we are the partner that makes it happen.
+                                We are the execution engine behind tomorrow's builders. If you refuse to move slow, we are the partner that makes it happen.
                             </p>
                             <Link to="/contact" className="inline-block px-10 py-5 bg-emerald-500 text-slate-900 border-2 border-emerald-500 font-black uppercase text-lg tracking-wider hover:bg-slate-900 hover:text-emerald-500 transition-colors shadow-[8px_8px_0px_0px_rgba(24,24,27,1)]">
                                 Arm Your Team
@@ -281,8 +281,8 @@ export default function Services() {
 
                     <div className="grid md:grid-cols-3 gap-0">
                         {[
-                            { step: '01', icon: <MessageSquare className="w-10 h-10" />, title: 'Align On Scope', desc: 'Identify the exact lever needed to accelerate your business. We define the target and skip the bloated proposals.' },
-                            { step: '02', icon: <Zap className="w-10 h-10" />, title: 'Accelerated Build', desc: 'We execute with ruthless momentum. You get constant updates as we actively forge your solution.' },
+                            { step: '01', icon: <MessageSquare className="w-10 h-10" />, title: 'Align On Scope', desc: 'Identify the exact lever needed to execute on your business. We define the target and skip the bloated proposals.' },
+                            { step: '02', icon: <Zap className="w-10 h-10" />, title: 'Rapid Execution', desc: 'We execute with ruthless momentum. You get constant updates as we actively forge your solution.' },
                             { step: '03', icon: <Clock className="w-10 h-10" />, title: 'Ship & Multiply', desc: 'We launch constraints away and arm your team with a platform that acts as a continuous force multiplier.' }
                         ].map((item, i) => (
                             <div key={i} className="relative p-8 border-4 border-slate-900 bg-white text-center group hover:bg-slate-900 hover:text-white transition-colors duration-300">
@@ -304,7 +304,7 @@ export default function Services() {
                     <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-4">Stop Planning.</h2>
                     <h2 className="text-4xl md:text-6xl font-black uppercase tracking-tighter mb-8 text-transparent" style={{ WebkitTextStroke: '2px #0f172a' }}>Start Shipping.</h2>
                     <Link to="/contact" className="inline-flex items-center gap-3 px-10 py-5 bg-slate-900 text-white font-black uppercase text-lg tracking-wider hover:bg-emerald-500 hover:text-slate-900 transition-colors shadow-[8px_8px_0px_0px_rgba(16,185,129,1)] border-4 border-slate-900">
-                        Accelerate Your Business <ArrowRight className="w-6 h-6" />
+                        Execute Your Vision <ArrowRight className="w-6 h-6" />
                     </Link>
                 </div>
             </section>

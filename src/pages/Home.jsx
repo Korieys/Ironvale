@@ -51,7 +51,7 @@ export default function Home() {
     return (
         <>
             <Helmet>
-                <title>Ironvale Works | The Acceleration Engine</title>
+                <title>Ironvale Works | Your Execution Engine</title>
                 <meta name="description" content="The home of unfair speed. We build powerful tools for operators, creators, and teams who refuse to move slow." />
             </Helmet>
             {/* Hero Section */}
@@ -62,7 +62,7 @@ export default function Home() {
                 <div ref={heroRef} className={`max-w-7xl mx-auto relative z-10 grid lg:grid-cols-2 gap-12 items-center reveal-on-scroll ${heroInView ? 'is-revealed animate-fade-in-up' : ''}`}>
                     <div>
                         <div className="inline-block bg-emerald-500 text-slate-900 font-mono font-bold px-3 py-1 text-sm mb-6 border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(24,24,27,1)]">
-                            EST. 2020 // ACCELERATION ENGINE
+                            EST. 2020 // EXECUTION ENGINE
                         </div>
                         <h1 className="text-6xl sm:text-7xl lg:text-8xl font-black uppercase tracking-tighter leading-[0.85] mb-8">
                             Move So Fast<br />
@@ -75,7 +75,7 @@ export default function Home() {
 
                         <div className="flex flex-col sm:flex-row gap-4 font-mono font-bold uppercase">
                             <Link to="/services" className="px-6 py-4 bg-slate-900 text-[#f1f5f9] border-2 border-slate-900 hover:-translate-y-1 hover:translate-x-1 hover:shadow-[-6px_6px_0px_0px_#10b981] shadow-[4px_4px_0px_0px_#10b981] transition-all duration-300 flex justify-between items-center group">
-                                <span>See How We Accelerate</span>
+                                <span>See How We Execute</span>
                                 <ArrowRight className="w-5 h-5 ml-4 group-hover:text-emerald-500 group-hover:translate-x-2 transition-transform duration-300" />
                             </Link>
                             <Link to="/about" className="px-6 py-4 bg-[#f1f5f9] text-slate-900 border-2 border-slate-900 hover:-translate-y-1 hover:translate-x-1 hover:shadow-[-6px_6px_0px_0px_#0f172a] shadow-[4px_4px_0px_0px_#0f172a] transition-all duration-300 flex justify-between items-center group">
