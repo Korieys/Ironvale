@@ -5,7 +5,7 @@ import { ShieldCheck, Zap, Coins, Rocket, ArrowRight, MonitorDot, AppWindowMac, 
 import kromakutImg from '../assets/kromakut.png';
 import parseonImg from '../assets/parseon.png';
 import atlasImg from '../assets/atlas.png';
-import machineryImg from '../assets/machinery.png';
+import machineryImg from '../assets/machinery-connect.png';
 import greatExpectationsImg from '../assets/great_expectations.png';
 
 export default function Services() {
@@ -220,7 +220,7 @@ export default function Services() {
                                 img: greatExpectationsImg
                             },
                             {
-                                title: 'MachineryConnection',
+                                title: 'MachineryConnect',
                                 desc: 'Industrial e-commerce platform for heavy machinery sales, featuring a custom admin portal and direct WhatsApp integration.',
                                 tags: ['E-Commerce', 'B2B', 'Integrations'],
                                 img: machineryImg
